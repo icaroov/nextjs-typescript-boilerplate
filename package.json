@@ -1,18 +1,25 @@
 {
-  "name": "web",
-  "version": "0.1.0",
+  "name": "nextjs-typescript-template",
+  "description": "A TypeScript + Next.js template that includes all you need to build fantastic projects",
+  "version": "1.0.0",
   "private": true,
+  "author": "Icaro Oliveira <icarovinici@gmail.com> (icaroov)",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "template",
+    "typescript"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "commit": "cz",
     "lint": "eslint src --max-warnings=0"
   },
   "husky": {
     "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
