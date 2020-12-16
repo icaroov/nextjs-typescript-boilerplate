@@ -1,13 +1,13 @@
 {
-  "name": "nextjs-typescript-template",
-  "description": "A TypeScript + Next.js template that includes all you need to build fantastic projects",
+  "name": "web",
+  "description": "A TypeScript + Next.js boilerplate that includes all you need to build fantastic projects",
   "version": "1.0.0",
   "private": true,
   "author": "Icaro Oliveira <icarovinici@gmail.com> (icaroov)",
   "license": "MIT",
   "keywords": [
     "nextjs",
-    "template",
+    "boilerplate",
     "typescript"
   ],
   "scripts": {
@@ -34,6 +34,7 @@
   },
   "dependencies": {
     "next": "10.0.3",
+    "next-pwa": "^5.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "styled-components": "^5.2.1"
@@ -41,10 +42,10 @@
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/preset-typescript": "^7.12.7",
-    "@storybook/addon-actions": "^6.1.9",
-    "@storybook/addon-essentials": "^6.1.9",
-    "@storybook/addon-links": "^6.1.9",
-    "@storybook/react": "^6.1.9",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/react": "^6.1.11",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@types/babel__template": "^7.4.0",
@@ -66,7 +67,7 @@
     "jest-styled-components": "^7.0.3",
     "lint-staged": "^10.5.2",
     "prettier": "^2.2.1",
-    "storybook-addon-next-router": "^2.0.0",
+    "storybook-addon-next-router": "^2.0.2",
     "typescript": "^4.1.2"
   }
 }

@@ -2,8 +2,8 @@ import * as Styled from './styles'
 // import {} from './props'
 
 const Main = ({
-  title = 'Template',
-  description = 'TypeScript, ReactJS, NextJS e Styled Components'
+  title = 'Boilerplate',
+  description = 'TypeScript, NextJS e Styled Components'
 }) => {
   return (
     <Styled.Container>
