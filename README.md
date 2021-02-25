@@ -25,20 +25,28 @@ This project uses lot of stuff as:
 - 📏 [Eslint](https://eslint.org/)
 - 💖 [Prettier](https://prettier.io/)
 - 🐶 [Husky](https://github.com/typicode/husky)
+- 🤖 [Dependabot](https://dependabot.com/)
+- 📁 [Plop.js](https://plopjs.com/)
 
 ## Getting Started
 
-First, run the development server:
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
 ```bash
-npm run dev
+npx create-next-app --example https://github.com/icaroov/nextjs-typescript-boilerplate
 # or
+yarn create next-app --example https://github.com/icaroov/nextjs-typescript-boilerplate
+
+# and
+
+npm run dev
+#or
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.ts`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
 ## Commands
 
@@ -50,6 +58,11 @@ You can start editing the page by modifying `pages/index.ts`. The page auto-upda
 - `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
+- `generate`: generates component files with this structure:
+
+
+![Plop Gif](https://res.cloudinary.com/ddi5agea1/image/upload/v1614261243/plop_m29lpk.gif)
+
 
 ## Structure overview
 ```
