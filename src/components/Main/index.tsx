@@ -1,5 +1,4 @@
 import * as Styled from './styles'
-// import {} from './props'
 
 const Main = ({
   title = 'Boilerplate',
