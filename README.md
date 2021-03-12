@@ -5,7 +5,7 @@
 <h1 align="center">Next.js ⚡ Boilerplate</h1>
 
 <div align="center">
-  
+
 [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/icaroov/nextjs-typescript-boilerplate)
 
 An [**Next.js**](https://github.com/zeit/next.js/) start kit to scalable web applications, designed with simplicity for learning and real-world applicability.
@@ -13,8 +13,6 @@ An [**Next.js**](https://github.com/zeit/next.js/) start kit to scalable web app
 </div>
 
 ## What is inside?
-
-This project uses lot of stuff as:
 
 - 💙 [TypeScript](https://www.typescriptlang.org/)
 - 🏴 [NextJS](https://nextjs.org/)
@@ -58,6 +56,7 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 - `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
+- `prepare`: automatically enable the Git Hooks
 - `generate`: generates component files with this structure:
 
 
@@ -66,6 +65,9 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 ## Structure overview
 ```
+├── .github
+|    └── workflows
+├── .husky
 ├── .jest
 |    └── setup.ts
 ├── .storybook
@@ -115,6 +117,6 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## License 
+## License
 
 The [MIT License]() (MIT)
