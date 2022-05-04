@@ -30,7 +30,7 @@
     ]
   },
   "dependencies": {
-    "husky": "^5.2.0",
+    "husky": "^7.0.0",
     "next": "10.0.8",
     "next-pwa": "^5.0.6",
     "react": "17.0.2",
